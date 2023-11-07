@@ -39,3 +39,24 @@ switch (diena) {
   default:
     console.log("Netinkama dienos reiksme");
 }
+
+let value2 = "hello";
+value2 = 45;
+value2 = true;
+value2 = BigInt;
+
+// switch statment, kad nustatytu kokio tipo yra value2
+
+switch (typeof value2) {
+  case "string":
+    console.log("tekstas");
+    break;
+  case "number":
+    console.log("skaicius");
+    break;
+  case "boolean":
+    console.log("teisinga/neteisinga");
+    break;
+  default:
+    console.log("netinkamas tipas");
+}

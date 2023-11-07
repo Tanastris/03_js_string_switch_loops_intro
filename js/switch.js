@@ -60,3 +60,16 @@ switch (typeof value2) {
   default:
     console.log("netinkamas tipas");
 }
+
+let amzius = 15;
+
+switch (true) {
+  case amzius < 18:
+    console.log("Vaikas");
+    break;
+  case amzius > 55:
+    console.log("Paauges");
+    break;
+  default:
+    console.log("Suauges");
+}
